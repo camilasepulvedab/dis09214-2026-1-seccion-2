@@ -43,3 +43,5 @@ fill(0,0,255);
 ellipse(x,y,15);
 }
 }
+
+## frame count: variable numeric que regrista la cantidad de togramas dibujados desde que comenzo el boceto. El valor de 'frameCount' es 0 dentro del valor ´Setup()´. se interpreta en 1 cada vez que finaliza la ejecución del cogido en ´draw()´.
