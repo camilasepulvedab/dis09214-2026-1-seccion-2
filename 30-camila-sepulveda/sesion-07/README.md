@@ -6,7 +6,8 @@
 ## que es un loop (bucle): es una repetición o proceso infinito. Estructura de control que permite ejecutar un bloque de instrucciones de maneraa repetida mientras se cumpla una condición específica.
 def. rae: informatica. serie de instrucciones que se repiten indefinidamente mientras no se cumpla una condición previamente establecida. 
 
-## while: utililes para repetir condiciones instrucciuones mientras una condición sea verdadera. 
+## while: 
+utililes para repetir condiciones instrucciuones mientras una condición sea verdadera. 
 while(condición booleana) {
 }
 
@@ -16,7 +17,8 @@ mientras (x sea menor o igual que el alto de mi lienzo){  x incrementara a 1 cad
 while(x<= heigth){
 x = x+1} 
 
-## for: forma de repetir un bloque de código cuando se conoce el número deinteracciones. Utiles para repetir instrucciones un numero determinado de cosas. 
+## for: 
+forma de repetir un bloque de código cuando se conoce el número deinteracciones. Utiles para repetir instrucciones un numero determinado de cosas. 
 
 Ejemplos: 
 
@@ -28,7 +30,8 @@ for( let x=0 ; x<=width; x=x+1){
 ellipse(x,200,random(300))
 }
 
-## nested loop:  es un for dentro de otro for. 
+## nested loop: 
+es un for dentro de otro for. 
 
 Ejemplos:
 
@@ -44,4 +47,15 @@ ellipse(x,y,15);
 }
 }
 
-## frame count: variable numeric que regrista la cantidad de togramas dibujados desde que comenzo el boceto. El valor de 'frameCount' es 0 dentro del valor ´Setup()´. se interpreta en 1 cada vez que finaliza la ejecución del cogido en ´draw()´.
+## Frame count:
+variable numeric que regrista la cantidad de togramas dibujados desde que comenzo el boceto. El valor de 'frameCount' es 0 dentro del valor ´Setup()´. se interpreta en 1 cada vez que finaliza la ejecución del cogido en ´draw()´.
+
+Ejemplo: 
+
+ print(frameCount);
+  
+  if ((frameCount <= 500)) {
+    background(130,137,75);
+    textSize(50);
+    textAlign(CENTER,CENTER);
+    text("HOLA"+"\n ¿Cómo estay?", 200,200);
