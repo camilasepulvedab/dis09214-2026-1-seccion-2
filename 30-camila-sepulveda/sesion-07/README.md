@@ -21,10 +21,25 @@ x = x+1}
 Ejemplos: 
 
 for( inicialización variable; condición booleana; actualización){ 
-lo quenquremos que pase cuabdo la condición sea verdadera
+lo que queremos que pase cuando la condición sea verdadera
 }
 
 for( let x=0 ; x<=width; x=x+1){
 ellipse(x,200,random(300))
 }
 
+## nested loop:  es un for dentro de otro for. 
+
+Ejemplos:
+
+for(iniciación variable; condición booleana; actualización){
+lo que queremos que pase cuando la condición sea verdadera
+for(iniciación variable; condición booleana; actualización){
+
+for( let x=0 ; x <= width; x=x+25){
+for( let y=0 ; y <= height; y=y+25){
+
+fill(0,0,255);
+ellipse(x,y,15);
+}
+}
